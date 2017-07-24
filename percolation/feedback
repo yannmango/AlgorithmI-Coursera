@@ -1,0 +1,6 @@
+1. Use codes and txt files in test-percolation to auto-simulate percolation process.
+2. If you only consider use only one Weighted Quick Union Union Find (WQUUF) object with two virtual
+sites TOP and BOTTOM  to determine whether it is percolated, there will be backwash problem which means
+when the top and bottom connect, some sites which connect only to bottom will also be FULL, this is wrong.
+we have two approches to solve this problem.
+https://www.sigmainfy.com/blog/avoid-backwash-in-percolation.html
